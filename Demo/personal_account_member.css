@@ -1,0 +1,12 @@
+
+.application_pending {
+    color: rgb(12, 171, 193);
+}
+
+.application_accepted {
+    color: green;
+}
+
+.application_rejected {
+    color: red;
+}

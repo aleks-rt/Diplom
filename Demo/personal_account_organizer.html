@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal account member</title>
+    <link href="general-style.css" rel="stylesheet"/>
+    <link href="personal_account_organizer.css" rel="stylesheet"/>
+    
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="top">
+            <img width="300px" class="icon" alt="icon" src="Make_Show.png"/>
+            <div>
+                <div class="search">
+                    <input class="button-search" type="text" id="search"/>
+                    <button class="btn-search">Поиск</button>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <div style="position: relative;">
+                    <button class="menu">Меню</button>
+                    <div class="burger-line first"></div>
+                    <div class="burger-line second"></div>
+                    <div class="burger-line third"></div>
+                    <div class="burger-line fourth"></div>
+                </div>
+
+                <div class="submenu">
+                    <a href="personal_account.html">
+                        <button>Личный кабинет</button>
+                    </a>
+                    <a href="start.html">
+                        <button>Выйти</button>
+                    </a>
+                </div> 
+            </div>
+        </div>
+        <br>
+        <hr/>
+        <h1>
+            Алексеева Маргарита (show girl)
+        </h1>
+        <hr/>
+        <br>
+        <h1>
+            Ваши мероприятия:
+        </h1>
+
+        <div class="make_application">
+            <button class="make_app">Создать мероприятие</button>
+        </div>
+
+        <table class="applications_participation">
+            <tr>
+                <td><h2>Название</h2></td>
+                <td><h2>Статус</h2></td>
+            </tr>
+            <br>
+            <tr>
+                <td>Dance factor</td>
+                <td>
+                    <div class="container-accordion">
+                        <button class="accordion">Показать заявки > </button>
+                        <div class="panel">
+                            <div class="elements_member">
+                                <p class="pane-text">Команда TODES </p>
+                                <button class="info_member">Подробнее</button>
+                                <button class="yes_member">Принять</button>
+                                <button class="no_member">Отклонить</button>
+                                <button class="reseat_member">Сбросить выбор</button>
+                            </div>
+                            <div class="elements_member">
+                                <p class="pane-text">Команда 25.5 </p>
+                                <button class="info_member">Подробнее</button>
+                                <button class="yes_member">Принять</button>
+                                <button class="no_member">Отклонить</button>
+                                <button class="reseat_member">Сбросить выбор</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Нужны актеры на съемку фильма</td>
+                <td>
+                    <div class="container-accordion">
+                        <button class="accordion">Показать заявки > </button>
+                        <div class="panel">
+                            <p class="pane-text">Заявок пока что не поступало </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Dance factor</td>
+                <td>
+                    <div class="container-accordion">
+                        <button class="accordion">Показать заявки > </button>
+                        <div class="panel">
+                            <p class="pane-text">Заявок пока что не поступало </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+
+        <div class="popup">
+            <div class="popup__container">
+                <div class="button-close">
+                    <button class="button-close-popup">×</button>
+                </div>
+                <div class="popup__wrapper">
+                    <div id="blablabla">
+                        <div> 
+                            <h1>Создайте свое новое мероприятие</h1>
+                            <h3>Название мероприятия</h3>
+                            <form>
+                                <input class="input" type="text">
+                              </form>  
+                            <h3>Краткое описание мероприятия</h3>
+                            <form>
+                                <input class="input" type="text">
+                              </form>  
+                            <h3>Описание, кого вы ищите</h3>
+                            <form>
+                                <input class="input" type="text">
+                            </form>  
+                            <h3>Кого вы ищите:</h3>
+                            <div>
+                                <label>
+                                    <input type='checkbox' name="concert-check" id="concert-check">
+                                    <span></span>
+                                    Танцоров
+                                </label>
+                            </div>
+    
+                            <div>
+                                <label>
+                                    <input type='checkbox' name="party-check" id="party-check">
+                                    <span></span>
+                                    Певцов
+                                </label>
+                            </div>
+    
+                            <div>
+                                <label>
+                                    <input type='checkbox' name="local-check" id="local-check">
+                                    <span></span>
+                                    Актеров
+                                </label>
+                            </div>
+    
+                            <div>
+                                <label>
+                                    <input type='checkbox' name="over-check" id="over-check">
+                                    <span></span>
+                                    Стендаперов
+                                </label>
+                            </div>
+                            <div>
+                                <label>
+                                    <input type='checkbox' name="over-check" id="over-check">
+                                    <span></span>
+                                    Ведущих
+                                </label>
+                            </div>
+                            <div>
+                                <label>
+                                    <input type='checkbox' name="over-check" id="over-check">
+                                    <span></span>
+                                    Диджеев
+                                </label>
+                            </div>
+                            <h3>Вознаграждение за участие</h3>
+                            <form>
+                                <input class="input" type="text">
+                              </form>  
+                            <h3>Дата мероприятия</h3>
+                            <input type="date" name="calendar">
+                            <h3>Тип мероприятия</h3>
+                            <div>
+                                <label>
+                                    <input type='checkbox' name="concert-check" id="concert-check">
+                                    <span></span>
+                                    Концерт
+                                </label>
+                            </div>
+    
+                            <div>
+                                <label>
+                                    <input type='checkbox' name="party-check" id="party-check">
+                                    <span></span>
+                                    Party
+                                </label>
+                            </div>
+    
+                            <div>
+                                <label>
+                                    <input type='checkbox' name="local-check" id="local-check">
+                                    <span></span>
+                                    Личные мероприятия
+                                </label>
+                            </div>
+    
+                            <div>
+                                <label>
+                                    <input type='checkbox' name="over-check" id="over-check">
+                                    <span></span>
+                                    Другое
+                                </label>
+                            </div>
+                            <h3>Город, в котором проводится мероприятие</h3>
+                            <div>
+                                <div>
+                                  <input type="radio"
+                                   name="sity" value="St-pererburg">
+                                  <label for="sityChoice1">Санкт-Петербург</label>
+                              
+                                  <input type="radio"
+                                   name="sity" value="Moscow">
+                                  <label for="sityChoice2">Москва</label>
+                              
+                                </div>
+                            </div>
+                            <h3>Загрузите фото мероприятия</h3>
+                            <div>
+                                <input type="file" id="file">
+                                <button class="delete_file">Удалить файл</button>
+                            </div>
+                            <br/>
+                            <a>        
+                                <button class="search-hotels">Создать</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup2">
+            <div class="popup__container2">
+                <div class="button-close2">
+                    <button class="button-close-popup2">×</button>
+                </div>
+                <div class="popup__wrapper2">
+                    <div id="blablabla2">
+                        <div>
+                            <h3 id="min-max-price">Сопроводительный текст:</h3>
+                            <p>Лол</p>
+                            <h3 id="min-max-price">Ссылки на социальные сети:</h3>                             
+                            <p>кек</p>
+                            <h3 id="type-of-house">Контактные данные:</h3> 
+                            <p>лол кек</p>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+    <script src="general-code.js"></script>
+    <script src="personal_account_organizer.js"></script>
+</body>

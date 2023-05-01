@@ -1,0 +1,205 @@
+
+/* тело */
+
+.body {
+    background-image: url(all-events/background.png);
+    size: 0ch;
+}
+
+/* настройка кнопок */
+
+.start-button1 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+.start-button2 {
+    position: absolute;
+    top: 60%;
+    left: 38%;
+}
+button:hover {
+    /* opacity: 0.9; */
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button {
+    border: 3px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 21px;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    font-size: 50px;
+}
+
+/*окно при кнопке "войти" */
+
+#blablabla.open {
+    display: block;
+}
+  
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(17, 17, 17, 0.5);
+    transition: all 0.5s ease;
+    display: none;
+    font-size: 16px;
+    z-index: 2;
+}
+  
+.popup_open {
+    display: block;
+}
+  
+.popup__container {
+    overflow-y: scroll;
+    overflow-x: scroll;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 10px;
+    max-width: 588px;
+    max-height: 800px;
+    width: 100%;
+    border: none;
+}
+
+@media(max-width: 800px) {
+    .popup__container {
+        max-width: 350px;
+        max-height: 550px;
+    }
+}
+
+@media(max-width: 320px) {
+    .popup__container {
+        max-width: 250px;
+        max-height: 500px;
+    }
+}
+
+@media(max-height: 600px) {
+    .popup__container {
+        max-width: 400px;
+        max-height: 500px;
+    }
+}
+  
+.popup__wrapper {
+    padding: 40px;
+}
+
+.button-close-popup {
+    border: 3px solid black;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: white;
+    border-radius: 21px;
+    font-size: 25px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+.come_website {
+    border: 3px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 21px;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    font-size: 20px;
+    box-shadow: none;
+}
+
+/*окно при кнопке "зарегистироваться" */
+
+#blablabla2.open {
+    display: block;
+}
+  
+.popup2 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(17, 17, 17, 0.5);
+    transition: all 0.5s ease;
+    display: none;
+    font-size: 16px;
+    z-index: 2;
+}
+  
+.popup_open2 {
+    display: block;
+}
+  
+.popup__container2 {
+    overflow-y: scroll;
+    overflow-x: scroll;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 10px;
+    max-width: 588px;
+    max-height: 800px;
+    width: 100%;
+    border: none;
+}
+
+@media(max-width: 800px) {
+    .popup__container2 {
+        max-width: 350px;
+        max-height: 550px;
+    }
+}
+
+@media(max-width: 320px) {
+    .popup__container2 {
+        max-width: 250px;
+        max-height: 500px;
+    }
+}
+
+@media(max-height: 600px) {
+    .popup__container2 {
+        max-width: 400px;
+        max-height: 500px;
+    }
+}
+  
+.popup__wrapper2 {
+    padding: 40px;
+}
+
+.button-close-popup2 {
+    border: 3px solid black;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: white;
+    border-radius: 21px;
+    font-size: 25px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+.input {
+    width: 100%;
+    height: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal account member</title>
+    <link href="general-style.css" rel="stylesheet"/>
+    <link href="personal_account_member.css" rel="stylesheet"/>
+    
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="top">
+            <img width="300px" class="icon" alt="icon" src="Make_Show.png"/>
+            <div>
+                <div class="search">
+                    <input class="button-search" type="text" id="search"/>
+                    <button class="btn-search">Поиск</button>
+                </div>
+            </div>
+            
+            <div class="dropdown">
+                <div style="position: relative;">
+                    <button class="menu">Меню</button>
+                    <div class="burger-line first"></div>
+                    <div class="burger-line second"></div>
+                    <div class="burger-line third"></div>
+                    <div class="burger-line fourth"></div>
+                </div>
+
+                <div class="submenu">
+                    <a href="personal_account.html">
+                        <button>Личный кабинет</button>
+                    </a>
+                    <a href="start.html">
+                        <button>Выйти</button>
+                    </a>
+                </div> 
+            </div>
+        </div>
+        <br>
+        <hr/>
+        <h1>
+            Алексеева Маргарита (show girl)
+        </h1>
+        <hr/>
+        <br>
+        <h1>
+            Ваши заявки на участие:
+        </h1>
+        <table class="applications_participation">
+            <tr>
+                <td><h2>Название</h2></td>
+                <td><h2>Статус</h2></td>
+            </tr>
+            <br>
+            <tr>
+                <td>Dance factor</td>
+                <div >
+                    <td class="application_pending">На рассмотрении</td> 
+                </div>
+                 
+            </tr>
+            <tr>
+                <td>Dance factor</td>
+                <td class="application_accepted">Принято</td>  
+            </tr>
+            <tr>
+                <td>Dance factor</td>
+                <td class="application_rejected">Отклонена</td>  
+            </tr>
+
+        </table>
+    </div>
+    <script src="general-code.js"></script>
+</body>
